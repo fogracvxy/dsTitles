@@ -45,7 +45,7 @@ public class DSTitle extends JavaPlugin{
 		        placeHolders = true;
 		    }
 		}
-		if(Bukkit.getPluginManager().isPluginEnabled("DeluxeChat"))
+		if(Bukkit.getPluginManager().isPluginEnabled("DeluxeChatPaid"))
 		{
 			if (denniss17.dsTitle.Placeholders.DeluxeChatHook.RegisterDeluxeChatHooks(title)) {
 		        getLogger().info("dsTitle was successfully registered with DeluxeChat!");
